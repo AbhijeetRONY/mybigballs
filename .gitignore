@@ -1,0 +1,7 @@
+.build/
+.vscode/
+.vs
+.idea
+__pycache__
+.install
+build.log

@@ -1,0 +1,2 @@
+add_executable(prettylittlebaby prettylittlebaby.cpp)
+target_link_libraries(prettylittlebaby raylib)

@@ -1,0 +1,10 @@
+#ifndef __mybigballs__
+#define __mybigballs__
+#include <string_view>
+namespace Project {
+    constexpr std::string_view VERSION = "@mybigballs_VERSION_MAJOR@.@mybigballs_VERSION_MINOR@.@mybigballs_VERSION_PATCH@";
+    constexpr std::string_view COMPANY = "@COMPANY@";
+    constexpr std::string_view COPYRIGHT = "@COPYRIGHT@";
+    constexpr std::string_view NAME = "@PROJECT_NAME@";
+}
+#endif //mybigballs_H
